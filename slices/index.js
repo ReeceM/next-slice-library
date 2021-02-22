@@ -1,0 +1,5 @@
+export { default as SocialProof } from './SocialProof'
+export { default as CtaSlice } from './CtaSlice'
+export { default as HeroSlice } from './HeroSlice'
+export { default as VerticalCarousel } from './VerticalCarousel'
+export { default as FeatureSlice } from './FeatureSlice'
