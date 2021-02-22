@@ -1,0 +1,79 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FaqSlice",
+    "primary": {
+      "eyebrow": "morph global schemas",
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Transform holistic interfaces",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Exercitation dolor nulla dolore labore mollit quis adipisicing laboris.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Amet sunt culpa sit aliquip laboris ut laborum dolore voluptate magna. Deserunt eu pariatur esse id ullamco aliquip ullamco consequat anim magna quis voluptate ut nisi duis.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "question": "extend turn-key methodologies",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Culpa excepteur deserunt occaecat exercitation consectetur cillum exercitation nostrud ipsum. Commodo ex sit velit anim velit culpa deserunt eu nostrud est ipsum anim sit nisi. Cillum pariatur consectetur non veniam adipisicing non aliqua incididunt aliqua esse sunt.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "In commodo dolore enim incididunt enim nulla anim consequat ullamco do nostrud deserunt. Adipisicing adipisicing ut eu commodo occaecat consectetur adipisicing. Do veniam pariatur labore ipsum id ea ex tempor et laboris ut.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "utilize transparent models",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Voluptate esse aute irure anim fugiat. Do dolore fugiat sit occaecat duis fugiat excepteur occaecat pariatur sint pariatur.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Ea et sint culpa irure.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "question": "syndicate turn-key initiatives",
+        "answer": [
+          {
+            "type": "paragraph",
+            "text": "Irure non minim officia pariatur ad culpa excepteur Lorem anim officia. Non dolor ex laborum minim aute sunt elit est aute dolor enim deserunt do Lorem. Aliquip incididunt culpa aliquip anim aute officia nisi non excepteur eiusmod.",
+            "spans": []
+          },
+          {
+            "type": "paragraph",
+            "text": "Mollit ex ex do aliquip sunt occaecat ullamco aute esse anim magna aliqua. Aliquip consequat nostrud ut eu pariatur officia.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "slice_type": "faq_slice"
+  }
+]

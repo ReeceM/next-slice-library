@@ -1,0 +1,65 @@
+{
+  "id": "faq_slice",
+  "type": "SharedSlice",
+  "name": "FaqSlice",
+  "description": "FaqSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FaqSlice",
+      "primary": {
+        "eyebrow": {
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "question": {
+          "config": {
+            "label": "Question",
+            "placeholder": "What is ... ?",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "answer": {
+          "config": {
+            "label": "Answer",
+            "placeholder": "Answer of the question",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}
