@@ -14,6 +14,7 @@ const FeatureSlice = ({ slice, linkResolver }) => (
       sx={{
         display: ['block', 'flex'],
         position: 'relative',
+        margin: 0,
         flexDirection: slice.primary.placeLeft ? ['row', 'row-reverse'] : ['row-reverse', 'row']
       }}
     >
@@ -21,7 +22,7 @@ const FeatureSlice = ({ slice, linkResolver }) => (
         // className="md:w-1/2 m-auto md:m-0 overflow-visible"
         sx={{
           width: [null, null, '50%'],
-          margin: 'auto',
+          margin: ['auto', 0],
           overflow: 'visible',
         }}
       >

@@ -10,19 +10,19 @@
       "title": [
         {
           "type": "heading3",
-          "text": "Reinvent sticky markets",
+          "text": "Evolve front-end e-markets",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "In non culpa laborum cillum excepteur ullamco anim nisi esse esse ad enim. In consectetur proident eu eiusmod ut esse proident fugiat aute.",
+          "text": "In officia aliquip eiusmod consequat cillum dolore ad. In mollit magna commodo dolore dolor anim sunt tempor non.",
           "spans": []
         },
         {
           "type": "paragraph",
-          "text": "Cupidatat reprehenderit sint enim reprehenderit nulla sunt do ea aute irure deserunt dolore aliquip.",
+          "text": "Magna culpa dolor occaecat amet esse in exercitation eu. Do enim id sit eu consectetur pariatur ea esse consequat voluptate. Reprehenderit non cillum fugiat Lorem.",
           "spans": []
         }
       ],
@@ -40,7 +40,7 @@
         "link_type": "Web",
         "url": "#"
       },
-      "placeLeft": false
+      "placeLeft": true
     },
     "items": [],
     "slice_type": "feature_slice"
