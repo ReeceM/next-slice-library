@@ -1,0 +1,161 @@
+{
+  "id": "hero_slice",
+  "type": "SharedSlice",
+  "name": "HeroSlice",
+  "description": "HeroSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroSlice",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "image": {
+          "config": {
+            "label": "Image",
+            "type": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "type": "Color"
+          },
+          "type": "Color"
+        },
+        "primaryLink": {
+          "config": {
+            "label": "Primary Link",
+            "placeholder": "",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "primaryLabel": {
+          "config": {
+            "label": "Primary Label",
+            "placeholder": "Register Now",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "secondaryLink": {
+          "config": {
+            "label": "Secondary Link",
+            "placeholder": "",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "secondaryLabel": {
+          "config": {
+            "label": "Secondary Label",
+            "placeholder": "Read More...",
+            "type": "Text"
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "text-slice",
+      "name": "Text slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "HeroSlice",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "type": "Color"
+          },
+          "type": "Color"
+        },
+        "primaryLink": {
+          "config": {
+            "label": "Primary Link",
+            "placeholder": "",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "primaryLabel": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "primaryLabel",
+            "placeholder": ""
+          }
+        },
+        "secondaryLink": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "secondaryLink",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "secondaryLabel": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "secondaryLabel",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

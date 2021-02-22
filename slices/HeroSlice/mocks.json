@@ -1,0 +1,93 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "HeroSlice",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Deliver mission-critical supply-chains",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Cillum dolor anim esse mollit Lorem quis duis quis cillum ea labore. Nisi reprehenderit officia incididunt consectetur qui do officia consectetur veniam adipisicing eu elit exercitation tempor aliqua.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ullamco eu ad cupidatat consectetur proident velit.",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1505903658795-8d3cc48039e4?w=900&h=500&fit=crop"
+      },
+      "backgroundColor": "#f47373",
+      "primaryLink": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "primaryLabel": "syndicate vertical e-services",
+      "secondaryLink": {
+        "link_type": "Web",
+        "url": "https://slicemachine.dev"
+      },
+      "secondaryLabel": "harness bricks-and-clicks deliverables"
+    },
+    "items": [],
+    "slice_type": "hero_slice"
+  },
+  {
+    "id": "text-slice",
+    "name": "Text slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "HeroSlice",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Orchestrate next-generation synergies",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Dolore occaecat laborum aliqua esse. Minim do et ad tempor est exercitation cillum commodo esse sit consectetur. Reprehenderit duis qui officia sunt culpa ipsum ullamco Lorem laboris Lorem.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Ullamco reprehenderit quis exercitation dolore dolore eu anim in. Fugiat dolor incididunt excepteur laborum dolore eu.",
+          "spans": []
+        }
+      ],
+      "backgroundColor": "#f47373",
+      "primaryLink": {
+        "link_type": "Web",
+        "url": "https://prismic.io"
+      },
+      "primaryLabel": "brand extensible web-readiness",
+      "secondaryLink": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "secondaryLabel": "mesh collaborative deliverables"
+    },
+    "items": [],
+    "slice_type": "hero_slice"
+  }
+]
