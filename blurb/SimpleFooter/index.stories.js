@@ -5,6 +5,9 @@ import { storiesOf } from '@storybook/react';
 import { Theme, linkResolver } from '../../utils'
 
 mocks.forEach((variation) => {
-  storiesOf(model.name, Component).add(variation.name, () => <Theme children={<Component slice={variation} linkResolver={linkResolver}/>} />);
+  storiesOf(model.name, Component)
+    .add(variation.name, () =>
+      <Theme children={<Component slice={variation} linkResolver={linkResolver} />} />
+    );
 });
 

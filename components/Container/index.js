@@ -7,6 +7,7 @@ const Container = ({ children, ...props }) => {
     <Box
       as="section"
       __themeKey="container"
+      variant="wrapper"
       __css={{
         position: 'relative',
         maxWidth: ['640px', '768px', '1024px', '1280px'],

@@ -2,7 +2,7 @@
 import React from 'react'
 import NextApp from 'next/app'
 
-import { theme } from 'essential-slices'
+import { default as theme } from '../styles/theme'
 
 import { ThemeProvider, BaseStyles } from 'theme-ui'
 

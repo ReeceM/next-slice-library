@@ -1,0 +1,58 @@
+{
+  "id": "simple_footer",
+  "type": "SharedSlice",
+  "name": "SimpleFooter",
+  "description": "SimpleFooter",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "SimpleFooter",
+      "primary": {
+        "logo": {
+          "config": {
+            "label": "Logo",
+            "type": "Image",
+            "constraint": {
+              "width": 64,
+              "height": 64
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "copyright": {
+          "config": {
+            "label": "Copyright",
+            "placeholder": "This is copyrighted xyza",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "policyText": {
+          "config": {
+            "label": "Policy Name",
+            "placeholder": "Privacy",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "policyLink": {
+          "config": {
+            "label": "Page Link",
+            "placeholder": "http://yourpage.com/policy",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        }
+      }
+    }
+  ]
+}

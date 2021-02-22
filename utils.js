@@ -1,5 +1,5 @@
 import { ThemeProvider, BaseStyles } from 'theme-ui';
-import { default as theme } from './theme';
+import { default as theme } from './styles/theme';
 
 export const Theme = ({ children }) => {
   return (
@@ -9,4 +9,8 @@ export const Theme = ({ children }) => {
       </BaseStyles>
     </ThemeProvider>
   )
+}
+
+export function linkResolver(doc) {
+  return `/${doc.uid}`
 }

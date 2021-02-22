@@ -14,12 +14,10 @@
         "name": {
           "config": {
             "label": "Name",
-            "placeholder": "Website Name",
-            "allowTargetBlank": true,
-            "type": "StructuredText",
-            "single": "paragraph"
+            "placeholder": "",
+            "type": "Text"
           },
-          "type": "StructuredText"
+          "type": "Text"
         },
         "icon": {
           "config": {
@@ -37,12 +35,12 @@
           "type": "Image"
         },
         "ctaLabel": {
-          "type": "Text",
           "config": {
             "label": "",
-            "id": "ctaLabel",
-            "placeholder": ""
-          }
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
         },
         "ctaLink": {
           "type": "Link",

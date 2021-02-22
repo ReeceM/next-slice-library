@@ -1,0 +1,51 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "SimpleFooter",
+    "primary": {
+      "logo": {
+        "dimensions": {
+          "width": 64,
+          "height": 64
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1568625502763-2a5ec6a94c47?w=64&h=64&fit=crop"
+      },
+      "copyright": [
+        {
+          "type": "paragraph",
+          "text": "Aute Lorem ex veniam occaecat labore Lorem quis culpa. Elit magna consectetur dolor duis exercitation veniam deserunt est anim eu commodo veniam.",
+          "spans": []
+        }
+      ]
+    },
+    "items": [
+      {
+        "policyText": "Link Name",
+        "policyLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "policyText": "Link Name",
+        "policyLink": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        }
+      },
+      {
+        "policyText": "Link Name",
+        "policyLink": {
+          "link_type": "Web",
+          "url": "https://prismic.io"
+        }
+      }
+    ],
+    "slice_type": "simple_footer"
+  }
+]

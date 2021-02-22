@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
-import * as Slices from './slices'
+import * as Blurb from './blurb'
 
-const __allSlices = { ...Slices, }
+const __allSlices = {  ...Blurb, }
 
 const NotFound = ({ sliceName, slice, i }) => {
   console.error(`[sm-resolver] component "${sliceName}" not found at index ${i}.`)

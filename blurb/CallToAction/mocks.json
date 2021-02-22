@@ -1,0 +1,44 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "CallToAction",
+    "primary": {
+      "eyebrow": "Hair about I",
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Engage virtual applications",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Cillum occaecat amet dolor reprehenderit aliqua excepteur laboris do excepteur ullamco mollit culpa.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Magna commodo ullamco Lorem tempor duis. Veniam adipisicing do ad ut do reprehenderit ut enim aute dolor anim do dolor do. Proident aliquip pariatur quis ullamco id deserunt et.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Dolor sit ipsum velit consectetur aute. Ex est ea ea elit eu occaecat amet officia duis nulla et eiusmod aliquip deserunt ad.",
+          "spans": []
+        }
+      ],
+      "label": "orchestrate cutting-edge deliverables",
+      "link": {
+        "link_type": "Web",
+        "url": "http://google.com"
+      },
+      "buttonType": "primary"
+    },
+    "items": [],
+    "slice_type": "call_to_action"
+  }
+]

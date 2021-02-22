@@ -1,0 +1,78 @@
+{
+  "id": "call_to_action",
+  "type": "SharedSlice",
+  "name": "CallToAction",
+  "description": "CallToAction",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "CallToAction",
+      "primary": {
+        "eyebrow": {
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "label": {
+          "config": {
+            "label": "Label",
+            "placeholder": "Call To Action",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "link": {
+          "config": {
+            "label": "Label",
+            "placeholder": "",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "buttonType": {
+          "config": {
+            "label": "Button Type",
+            "placeholder": "",
+            "default_value": "primary",
+            "options": [
+              "primary",
+              "secondary",
+              "light",
+              "text"
+            ],
+            "type": "Select"
+          },
+          "type": "Select"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

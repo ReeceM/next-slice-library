@@ -6,13 +6,7 @@
     "version": "sktwi1xtmkfgx8626",
     "description": "NavbarSlice",
     "primary": {
-      "name": [
-        {
-          "type": "paragraph",
-          "text": "Sit adipisicing qui ad non deserunt aliquip incididunt aute.",
-          "spans": []
-        }
-      ],
+      "name": "Company",
       "icon": {
         "dimensions": {
           "width": 900,
@@ -31,7 +25,7 @@
           "url": "https://images.unsplash.com/photo-1515923152115-758a6b16f35e?w=64&h=64&fit=crop"
         }
       },
-      "ctaLabel": "maximize dynamic functionalities",
+      "ctaLabel": "Subscribe",
       "ctaLink": {
         "link_type": "Web",
         "url": "https://prismic.io"
@@ -39,31 +33,31 @@
     },
     "items": [
       {
-        "label": "ABout",
+        "label": "Link Label",
         "link": {
           "link_type": "Web",
-          "url": "https://prismic.io"
+          "url": "http://twitter.com"
         }
       },
       {
-        "label": "ABout",
+        "label": "Link Label",
         "link": {
           "link_type": "Web",
           "url": "https://slicemachine.dev"
         }
       },
       {
-        "label": "ABout",
-        "link": {
-          "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "label": "ABout",
+        "label": "Link Label",
         "link": {
           "link_type": "Web",
           "url": "https://prismic.io"
+        }
+      },
+      {
+        "label": "Link Label",
+        "link": {
+          "link_type": "Web",
+          "url": "http://google.com"
         }
       }
     ],
