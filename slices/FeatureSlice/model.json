@@ -1,0 +1,83 @@
+{
+  "id": "feature_slice",
+  "type": "SharedSlice",
+  "name": "FeatureSlice",
+  "description": "FeatureSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FeatureSlice",
+      "primary": {
+        "eyebrow": {
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "heading3,heading4"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph,preformatted,strong,em,hyperlink"
+          },
+          "type": "StructuredText"
+        },
+        "featureImage": {
+          "config": {
+            "label": "Feature Image",
+            "type": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "actionText": {
+          "config": {
+            "label": "Action Text",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "actionLink": {
+          "config": {
+            "label": "Action Link",
+            "placeholder": "",
+            "type": "Link",
+            "allowTargetBlank": true
+          },
+          "type": "Link"
+        },
+        "placeLeft": {
+          "config": {
+            "label": "Set Text To Left",
+            "placeholder": "default left",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true,
+            "type": "Boolean"
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

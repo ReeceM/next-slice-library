@@ -1,0 +1,48 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FeatureSlice",
+    "primary": {
+      "eyebrow": "Sup :)",
+      "title": [
+        {
+          "type": "heading3",
+          "text": "Reinvent sticky markets",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "In non culpa laborum cillum excepteur ullamco anim nisi esse esse ad enim. In consectetur proident eu eiusmod ut esse proident fugiat aute.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "Cupidatat reprehenderit sint enim reprehenderit nulla sunt do ea aute irure deserunt dolore aliquip.",
+          "spans": []
+        }
+      ],
+      "featureImage": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=900&h=500&fit=crop"
+      },
+      "actionText": "cLiCk ThIs",
+      "actionLink": {
+        "link_type": "Web",
+        "url": "#"
+      },
+      "placeLeft": false
+    },
+    "items": [],
+    "slice_type": "feature_slice"
+  }
+]
