@@ -5,14 +5,18 @@ import { Box } from 'theme-ui';
 const Slice = ({ children, ...props }) => {
   return (
     <Box
-      as="section"
+      as="div"
       __themeKey="slice"
       __css={{
-        margin: '3em auto',
-        padding: ['small', 'medium'],
+        margin: '3rem auto',
+        paddingX: ['xsmall', 'medium'],
+        paddingY: ['small', 'large'],
         textAlign: 'center',
-        maxWidth: 'full',
+        position: 'relative',
+        overflow: 'hidden',
+        width: '100%',
       }}
+      {...props}
     >
       {children}
     </Box>
