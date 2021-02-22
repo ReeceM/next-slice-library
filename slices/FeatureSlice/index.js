@@ -4,16 +4,11 @@ import React from 'react';
 import { array, shape, object } from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 import { jsx, Box } from 'theme-ui';
-import { Button } from '../../components'
+import { Button, Slice } from '../../components'
 
 
-const FeatureSlice = ({ slice, linkResolver}) => (
-  <section sx={{
-    margin: '3em auto',
-    padding: ['small', 'medium'],
-    textAlign: 'center',
-    maxWidth: 'full',
-  }}>
+const FeatureSlice = ({ slice, linkResolver }) => (
+  <Slice>
     <figure
       // className="relative md:flex md:flex-row-reverse"
       sx={{
@@ -115,7 +110,7 @@ const FeatureSlice = ({ slice, linkResolver}) => (
         </Box>
       </Box>
     </figure>
-  </section>
+  </Slice>
 );
 
 FeatureSlice.propTypes = {
