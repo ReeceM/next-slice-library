@@ -16,21 +16,19 @@ const HeroSlice = ({ slice, linkResolver }) => (
       alignItems: slice.primary.image == undefined ? 'start' : 'center'
     }}
   >
-    <Container>
-      {
-        slice.primary.image !== undefined ? (
-          <ImageAndText slice={slice}>
-            <TextOnly
-              slice={slice}
-              linkResolver={linkResolver}
-            />
-          </ImageAndText>
+    {
+      slice.primary.image !== undefined ? (
+        <ImageAndText slice={slice}>
+          <TextOnly
+            slice={slice}
+            linkResolver={linkResolver}
+          />
+        </ImageAndText>
+      )
+        : (
+          <TextOnly slice={slice} linkResolver={linkResolver} />
         )
-          : (
-            <TextOnly slice={slice} linkResolver={linkResolver} />
-          )
-      }
-    </Container>
+    }
   </Slice>
 );
 

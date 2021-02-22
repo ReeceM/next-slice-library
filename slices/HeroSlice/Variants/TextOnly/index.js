@@ -13,6 +13,7 @@ const TextOnly = ({ slice, linkResolver}) => (
     <Box
       sx={{
         maxWidth: [null, "83%"],
+        margin: 'auto',
         textAlign: slice.primary.image !== undefined ? 'left' : 'center'
       }}
     >
@@ -33,7 +34,7 @@ const TextOnly = ({ slice, linkResolver}) => (
         <Flex
           sx={{
             marginTop: ['small', 'medium'],
-            justifyContent: 'space-between',
+            justifyContent: 'space-evenly',
             flexDirection: ['column', 'row'],
             alignItems: 'start'
           }}

@@ -20,7 +20,8 @@ const ImageAndText = ({ slice, children }) => (
         marginTop: ['medium', null],
         right: [null, null, '-2rem'],
         position: 'relative',
-        maxWidth: ['640px', '50%']
+        maxWidth: ['100%', '50%'],
+        width: ['100%', null]
       }}
     >
       <Box
