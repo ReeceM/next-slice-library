@@ -2,7 +2,7 @@ import Component from './';
 import model from './model';
 import mocks from './mocks.json';
 import { storiesOf } from '@storybook/react';
-import { Theme, linkResolver } from '../../utils'
+import {  linkResolver } from '../../utils'
 import theme from '../../styles/theme';
 
 mocks.forEach((variation) => {
@@ -10,7 +10,6 @@ mocks.forEach((variation) => {
     variation.primary.icon.url = 'https://images.prismic.io/slicemachine-startup/46aa4302-f71f-48fb-8866-4e87156af39a_upsights.png?auto=compress,format';
     variation.primary.icon.dimensions.width = '32px'
     return (
-      <Theme>
         <div
           style={{
             backgroundColor: theme.colors.squeeze,
@@ -20,7 +19,6 @@ mocks.forEach((variation) => {
           >
           <Component slice={variation} linkResolver={linkResolver} />
         </div>
-      </Theme>
     )
   })
 });
