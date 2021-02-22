@@ -1,0 +1,149 @@
+{
+  "SocialProof": {
+    "primary": {
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "FeatureSlice": {
+    "primary": {
+      "eyebrow": {
+        "content": "Sup :)"
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 2
+        }
+      },
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "featureImage": {
+        "content": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1"
+      },
+      "actionLink": {
+        "content": "#"
+      },
+      "actionText": {
+        "content": "cLiCk ThIs"
+      },
+      "placeLeft": {
+        "content": true
+      }
+    }
+  },
+  "HeroSlice": {
+    "primary": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 2
+        }
+      },
+      "image": {
+        "content": "https://images.unsplash.com/photo-1505903658795-8d3cc48039e4"
+      },
+      "backgroundColor": {
+        "content": "#f47373"
+      },
+      "secondaryLabel": {
+        "content": null
+      },
+      "primaryLabel": {
+        "content": null
+      }
+    },
+    "items": {
+      "label": {
+        "content": "Action Button"
+      }
+    }
+  },
+  "CallToAction": {
+    "primary": {
+      "label": {
+        "content": null
+      },
+      "eyebrow": {
+        "content": "Hair about I"
+      },
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 3
+        }
+      },
+      "buttonType": {
+        "content": "primary"
+      }
+    }
+  },
+  "NavbarSlice": {
+    "primary": {
+      "icon": {
+        "content": "https://images.unsplash.com/photo-1515923152115-758a6b16f35e"
+      },
+      "ctaLabel": {
+        "content": "Subscribe"
+      },
+      "name": {
+        "content": "Company"
+      }
+    },
+    "items": {
+      "label": {
+        "content": "Link Label"
+      }
+    }
+  },
+  "FaqSlice": {
+    "items": {
+      "answer": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 2
+        }
+      },
+      "question": {
+        "content": null
+      }
+    },
+    "primary": {
+      "eyebrow": {
+        "content": null
+      },
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 2
+        }
+      },
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
+  }
+}
