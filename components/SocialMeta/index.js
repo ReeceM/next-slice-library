@@ -38,6 +38,8 @@ const SocialMeta = ({ social_card, index }) => {
       </Head>
     )
   }
+
+  return null;
 }
 
 export default SocialMeta
