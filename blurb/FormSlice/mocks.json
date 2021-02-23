@@ -1,0 +1,43 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "FormSlice",
+    "primary": {
+      "formName": "engineer proactive applications",
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Facilitate global action-items",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Proident consequat cupidatat ipsum tempor.",
+          "spans": []
+        }
+      ],
+      "honeyPotField": "website",
+      "submitLabel": "Submit"
+    },
+    "items": [
+      {
+        "label": "brand ubiquitous infrastructures",
+        "input": "tel",
+        "placeholder": "scale seamless e-business",
+        "required": false
+      },
+      {
+        "label": "synergize 24/7 platforms",
+        "input": "text",
+        "placeholder": "synthesize intuitive paradigms",
+        "required": true
+      }
+    ],
+    "slice_type": "form_slice"
+  }
+]

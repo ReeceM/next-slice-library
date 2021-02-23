@@ -1,0 +1,105 @@
+{
+  "id": "form_slice",
+  "type": "SharedSlice",
+  "name": "FormSlice",
+  "description": "FormSlice",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FormSlice",
+      "primary": {
+        "formName": {
+          "config": {
+            "label": "Form Name",
+            "placeholder": "contact",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "title": {
+          "config": {
+            "label": "Title",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "heading1"
+          },
+          "type": "StructuredText"
+        },
+        "description": {
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "type": "StructuredText",
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        },
+        "honeyPotField": {
+          "config": {
+            "label": "Honey Pot Field",
+            "placeholder": "use website, they like it",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "submitLabel": {
+          "config": {
+            "label": "Submit Label",
+            "placeholder": "Contact Us",
+            "type": "Text"
+          },
+          "type": "Text"
+        }
+      },
+      "items": {
+        "label": {
+          "config": {
+            "label": "Input Label",
+            "placeholder": "",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "input": {
+          "config": {
+            "label": "Input",
+            "placeholder": "",
+            "options": [
+              "text",
+              "textarea",
+              "email",
+              "tel"
+            ],
+            "type": "Select",
+            "default_value": "text"
+          },
+          "type": "Select"
+        },
+        "placeholder": {
+          "config": {
+            "label": "Placeholder",
+            "placeholder": "Placeholder",
+            "type": "Text"
+          },
+          "type": "Text"
+        },
+        "required": {
+          "config": {
+            "label": "Required",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true,
+            "type": "Boolean"
+          },
+          "type": "Boolean"
+        }
+      }
+    }
+  ]
+}
