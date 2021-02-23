@@ -26,6 +26,7 @@ export const forms = {
     px: 'xsmall',
     py: 'xsmall',
     placeholder: 'grey20',
+    bg: 'white',
   },
 
   textarea: {
@@ -35,6 +36,7 @@ export const forms = {
     px: 'xsmall',
     py: 'xsmall',
     placeholder: 'grey20',
-    fontFamily: 'body'
+    fontFamily: 'body',
+    bg: 'white',
   }
 }

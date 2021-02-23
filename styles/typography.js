@@ -5,10 +5,10 @@ export const headings = {
   level: {
     1: {
       fontSize: [
-        '1.625rem', // 26px
-        '2rem', // 32px
-        '2.5rem', // 40px
-        '2.75rem', // 44px
+        '3rem',
+        '3.2rem',
+        '3.5rem',
+        '4rem',
       ],
       lineHeight: 1.3,
     },
