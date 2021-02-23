@@ -27,6 +27,9 @@
       },
       "placeLeft": {
         "content": true
+      },
+      "backgroundColor": {
+        "content": "#d9e3f0"
       }
     }
   },
@@ -158,20 +161,38 @@
     }
   },
   "FormSlice": {
+    "items": {
+      "placeholder": {
+        "content": null
+      },
+      "label": {
+        "content": "First Name"
+      },
+      "name": {
+        "content": "first_name"
+      }
+    },
     "primary": {
       "honeyPotField": {
         "content": "website"
       },
-      "formName": {
-        "content": null
-      }
-    },
-    "items": {
-      "label": {
-        "content": null
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
       },
-      "placeholder": {
-        "content": null
+      "description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "submitLabel": {
+        "content": "Submit"
+      },
+      "formName": {
+        "content": "contact_us"
       }
     }
   }
