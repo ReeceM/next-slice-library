@@ -75,6 +75,14 @@
             "type": "Boolean"
           },
           "type": "Boolean"
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "type": "Color"
+          },
+          "type": "Color"
         }
       },
       "items": {}

@@ -8,7 +8,9 @@ import { Flex, Box } from 'theme-ui'
 import { Button, Slice, Eyebrow, Container } from '../../components'
 
 const CallToAction = ({ slice, linkResolver }) => (
-  <Slice>
+  <Slice style={{
+    backgroundColor: slice?.primary?.backgroundColor
+  }}>
     <Container>
       <Flex sx={{
         flex: '1',

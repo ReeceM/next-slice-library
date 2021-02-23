@@ -11,6 +11,7 @@ mocks.forEach((variation) => {
       (...args) => {
         const [controls] = args;
         variation.primary.placeLeft = controls.placeLeft;
+        variation.primary.backgroundColor = controls.backgroundColor;
 
         return <Component slice={variation} linkResolver={linkResolver}/>
       },

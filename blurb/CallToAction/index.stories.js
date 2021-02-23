@@ -8,8 +8,21 @@ mocks.forEach((variation) => {
   storiesOf(model.name, Component)
     .add(
       variation.name,
-      () => <Component slice={variation} linkResolver={linkResolver} />,
-      { controls: { hideNoControlsWarning: true } }
+      (...args) => {
+        const [controls] = args;
+        variation.primary.backgroundColor = controls.backgroundColor;
+
+        return <Component slice={variation} linkResolver={linkResolver} />
+      },
+      {
+        controls: { hideNoControlsWarning: true },
+        argTypes: {
+          backgroundColor: {
+            control: 'color',
+            defaultValue: 'white'
+          },
+        }
+      }
     );
 });
 

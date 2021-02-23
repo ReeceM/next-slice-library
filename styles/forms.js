@@ -4,19 +4,28 @@ export const forms = {
     marginTop: ['xsmall', 'small'],
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'space-between'
+    width: '100%',
   },
 
   label: {
-    bg: 'denim',
+    bg: 'squeeze',
+    px: 'xsmall',
+    textAlign: 'left',
     color: 'secondary',
+    width: 'intrinsic',
     fontWeight: 'normal',
-    lineHeight: 'button',
+    marginTop: 'small',
     marginBottom: 'xxsmall',
+    borderRadius: 'label',
   },
 
   input: {
-
+    boxShadow: 'shadow',
+    border: '1px solid',
+    borderColor: 'rgba(0,0,0,0.2)',
+    px: 'xsmall',
+    py: 'xsmall',
+    placeholder: 'grey20',
   },
 
   textarea: {

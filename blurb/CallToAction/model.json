@@ -70,6 +70,14 @@
             "type": "Select"
           },
           "type": "Select"
+        },
+        "backgroundColor": {
+          "config": {
+            "label": "Background Color",
+            "placeholder": "",
+            "type": "Color"
+          },
+          "type": "Color"
         }
       },
       "items": {}

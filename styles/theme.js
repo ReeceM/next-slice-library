@@ -97,6 +97,7 @@ export default {
 
   radii: {
     button: '2px',
+    label: '4px',
     card: '8px',
   },
 

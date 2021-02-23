@@ -8,7 +8,9 @@ import { FeatureCard } from './Components';
 
 
 const FeatureSlice = ({ slice, linkResolver }) => (
-  <Slice>
+  <Slice style={{
+    backgroundColor: slice?.primary?.backgroundColor
+  }}>
     <figure
       // className="relative md:flex md:flex-row-reverse"
       sx={{
