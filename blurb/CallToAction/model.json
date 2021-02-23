@@ -78,6 +78,17 @@
             "type": "Color"
           },
           "type": "Color"
+        },
+        "simple": {
+          "config": {
+            "label": "Simple",
+            "placeholder": "",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": true,
+            "type": "Boolean"
+          },
+          "type": "Boolean"
         }
       },
       "items": {}

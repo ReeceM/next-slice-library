@@ -10,34 +10,35 @@
       "title": [
         {
           "type": "heading1",
-          "text": "Synergize integrated systems",
+          "text": "Utilize B2B deliverables",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Cillum laboris deserunt ex velit ea aliquip do occaecat sit ipsum mollit nisi magna ex. Occaecat fugiat est quis. Labore ex sint eu anim nisi proident aute ullamco minim ea irure cupidatat.",
+          "text": "Consectetur excepteur proident est consequat veniam fugiat consequat dolore tempor amet excepteur sit pariatur.",
           "spans": []
         },
         {
           "type": "paragraph",
-          "text": "Consectetur aliqua commodo do culpa est dolor labore fugiat. Ipsum est occaecat proident mollit.",
+          "text": "Excepteur incididunt nostrud et exercitation reprehenderit cupidatat aliquip eu laboris ut fugiat aliquip cupidatat sunt reprehenderit.",
           "spans": []
         },
         {
           "type": "paragraph",
-          "text": "Esse labore eu incididunt excepteur. Dolore ea magna eiusmod eiusmod.",
+          "text": "Elit duis sint exercitation quis non non proident pariatur nisi velit qui aliquip.",
           "spans": []
         }
       ],
-      "label": "drive proactive models",
+      "label": "utilize robust niches",
       "link": {
         "link_type": "Web",
-        "url": "https://prismic.io"
+        "url": "http://google.com"
       },
       "buttonType": "primary",
-      "backgroundColor": "#18d7e0"
+      "backgroundColor": "#5b1c6f",
+      "simple": true
     },
     "items": [],
     "slice_type": "call_to_action"

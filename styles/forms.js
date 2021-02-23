@@ -29,6 +29,12 @@ export const forms = {
   },
 
   textarea: {
-
-  },
+    boxShadow: 'shadow',
+    border: '1px solid',
+    borderColor: 'rgba(0,0,0,0.2)',
+    px: 'xsmall',
+    py: 'xsmall',
+    placeholder: 'grey20',
+    fontFamily: 'body'
+  }
 }
