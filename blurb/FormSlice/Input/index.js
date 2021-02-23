@@ -5,25 +5,26 @@ import { Box, Input as ThemeInput, Textarea, Label } from 'theme-ui';
  *
  * @param {Object} props
  */
-const Input = ({ label, input, placeholder, required }) => {
+const Input = ({ label, name, input, placeholder, required }) => {
+  let Component = input != 'textarea' ? ThemeInput : Textarea;
+
   return (
     <Box
       as="div"
       __themeKey="forms"
       variant="field"
     >
-      <Label>
+      <Label htmlFor={name}>
         {label}
       </Label>
-      {
-        input !== 'textarea'
-          ? <ThemeInput
-            type={input}
-            placeholder={placeholder}
-            required={required === true ? true : false}
-          />
-          : <Textarea />
-      }
+
+      <Component
+        type={input}
+        name={name}
+        placeholder={placeholder}
+        required={required === true ? true : false}
+      />
+
     </Box>
   )
 }

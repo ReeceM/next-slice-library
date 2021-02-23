@@ -13,9 +13,9 @@
       "primary": {
         "formName": {
           "config": {
+            "type": "Text",
             "label": "Form Name",
-            "placeholder": "contact",
-            "type": "Text"
+            "placeholder": "contact"
           },
           "type": "Text"
         },
@@ -59,9 +59,17 @@
       "items": {
         "label": {
           "config": {
-            "label": "Input Label",
-            "placeholder": "",
-            "type": "Text"
+            "placeholder": "First Name",
+            "type": "Text",
+            "label": "Input Label"
+          },
+          "type": "Text"
+        },
+        "name": {
+          "config": {
+            "type": "Text",
+            "label": "Name",
+            "placeholder": "first_name"
           },
           "type": "Text"
         },

@@ -6,18 +6,18 @@
     "version": "sktwi1xtmkfgx8626",
     "description": "FormSlice",
     "primary": {
-      "formName": "engineer proactive applications",
+      "formName": "contact_us",
       "title": [
         {
           "type": "heading1",
-          "text": "Facilitate global action-items",
+          "text": "Revolutionize visionary portals",
           "spans": []
         }
       ],
       "description": [
         {
           "type": "paragraph",
-          "text": "Proident consequat cupidatat ipsum tempor.",
+          "text": "Cillum nostrud exercitation incididunt sunt. Velit culpa mollit mollit ullamco ad enim adipisicing duis pariatur duis. Aliquip consectetur quis eiusmod labore nisi.",
           "spans": []
         }
       ],
@@ -26,16 +26,18 @@
     },
     "items": [
       {
-        "label": "brand ubiquitous infrastructures",
-        "input": "tel",
-        "placeholder": "scale seamless e-business",
-        "required": false
+        "label": "First Name",
+        "name": "first_name",
+        "input": "text",
+        "placeholder": "innovate dynamic schemas",
+        "required": true
       },
       {
-        "label": "synergize 24/7 platforms",
+        "label": "First Name",
+        "name": "first_name",
         "input": "text",
-        "placeholder": "synthesize intuitive paradigms",
-        "required": true
+        "placeholder": "architect collaborative communities",
+        "required": false
       }
     ],
     "slice_type": "form_slice"
