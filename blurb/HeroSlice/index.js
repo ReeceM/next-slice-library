@@ -8,12 +8,13 @@ import { TextOnly, ImageAndText } from './Variants'
 
 const HeroSlice = ({ slice, linkResolver }) => (
   <Slice
+    id={slice.id}
     sx={{
       // overflowX: 'clip',
       backgroundColor: slice.backgroundColor,
       display: 'flex',
       justifyItems: 'center',
-      alignItems: slice.primary.image == undefined ? 'start' : 'center'
+      // alignItems: slice.primary.image == undefined ? ['center', 'start'] : 'center'
     }}
   >
     {

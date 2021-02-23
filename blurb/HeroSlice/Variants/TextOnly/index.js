@@ -8,13 +8,13 @@ const TextOnly = ({ slice, linkResolver}) => (
   <Flex sx={{
     flex: '1',
     flexDirection: ['column'],
-    alignItems: 'left',
+    alignItems: ['center', 'left'],
   }}>
     <Box
       sx={{
         maxWidth: [null, "83%"],
         margin: 'auto',
-        textAlign: slice.primary.image !== undefined ? 'left' : 'center'
+        textAlign: slice.primary.image !== undefined ? ['left'] : ['center']
       }}
     >
       <RichText

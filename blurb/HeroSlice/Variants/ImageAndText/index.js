@@ -8,7 +8,8 @@ const ImageAndText = ({ slice, children }) => (
     sx={{
       display: 'flex',
       flexDirection: ['column', 'column', 'row'],
-      alignItems: 'center'
+      alignItems: ['center', 'flex-start'],
+
     }}
   >
     <div>
