@@ -1,5 +1,6 @@
 import { colors } from './';
 import { buttons } from './'
+import { forms } from './';
 import {
   fonts, fontSizes, fontWeights, headings, lineHeights
 } from './typography';
@@ -46,6 +47,10 @@ export default {
 
   lineHeights: {
     ...lineHeights
+  },
+
+  forms: {
+    ...forms,
   },
 
   container: {
@@ -123,10 +128,9 @@ export default {
     default: {
       bg: 'white',
       padding: ['none xsmall', 'none 5rem'],
-      px: '3rem',
       container: {
-        width: '100%',
-        maxWidth: ['640px', '768px', '1280px'],
+        width: ['90%', '80%',],
+        // maxWidth: ['640px', '768px', '1280px'],
       }
     },
     mobile: {
@@ -172,7 +176,8 @@ export default {
       py: 1,
       display: 'flex',
       alignItems: 'center',
-      letterSpacing: '0.2em',
+      fontSize: 'base',
+      letterSpacing: '0.01em',
       cursor: 'pointer',
       borderTop: '2px solid transparent',
       '&:hover': {
