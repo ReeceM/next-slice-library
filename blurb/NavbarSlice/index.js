@@ -40,9 +40,10 @@ const NavbarSlice = ({ slice, linkResolver }) => {
               marginRight: '2rem'
             }}
           >
-            <img
+            <Box
+              as="img"
               sx={{
-                maxWidth: '32px !default',
+                maxWidth: '32px !important',
                 marginRight: '0.5rem'
               }}
               src={slice.primary.icon.url}

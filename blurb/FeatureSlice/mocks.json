@@ -40,7 +40,7 @@
         "link_type": "Web",
         "url": "#"
       },
-      "placeLeft": true
+      "placeLeft": false
     },
     "items": [],
     "slice_type": "feature_slice"

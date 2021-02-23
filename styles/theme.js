@@ -94,12 +94,12 @@ export default {
     button: '2px',
     card: '8px',
   },
-  width: {
+
+  sizes: {
     full: '100%',
-  },
-  height: {
     screen: '100vh'
   },
+
   space: {
     none: 0,
     xxsmall: '0.25rem', // 4px

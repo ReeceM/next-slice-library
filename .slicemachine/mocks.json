@@ -1,14 +1,4 @@
 {
-  "SocialProof": {
-    "primary": {
-      "description": {
-        "config": {
-          "patternType": "PARAGRAPH",
-          "blocks": 1
-        }
-      }
-    }
-  },
   "FeatureSlice": {
     "primary": {
       "eyebrow": {
@@ -112,7 +102,10 @@
     },
     "items": {
       "label": {
-        "content": "Link Label"
+        "content": {
+          "text": "Two Words",
+          "type": "heading2"
+        }
       }
     }
   },
@@ -161,6 +154,24 @@
     "items": {
       "policyText": {
         "content": "Link Name"
+      }
+    }
+  },
+  "FormSlice": {
+    "primary": {
+      "honeyPotField": {
+        "content": "website"
+      },
+      "formName": {
+        "content": null
+      }
+    },
+    "items": {
+      "label": {
+        "content": null
+      },
+      "placeholder": {
+        "content": null
       }
     }
   }
