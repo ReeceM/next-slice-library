@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import React, { useState } from 'react';
-import { array, shape } from 'prop-types';
+import { string, shape, object } from 'prop-types';
 import { Box, Flex, NavLink } from 'theme-ui';
 import { Button } from '../../components'
 import { jsx } from 'theme-ui';
@@ -157,7 +157,8 @@ const NavbarSlice = ({ slice, linkResolver }) => {
 NavbarSlice.propTypes = {
   slice: shape({
     primary: shape({
-      title: array.isRequired,
+      name: string.isRequired,
+      icon: object,
     }).isRequired,
   }).isRequired,
 };

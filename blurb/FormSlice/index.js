@@ -99,7 +99,7 @@ const FormSlice = ({ slice, linkResolver }) => {
             >
 
               {
-                slice?.items?.map((input) => <Input {...input} />)
+                slice?.items?.map((input, index) => <Input {...input} key={'index-'+index}/>)
               }
 
               <div style={{ marginTop: '1rem' }}>

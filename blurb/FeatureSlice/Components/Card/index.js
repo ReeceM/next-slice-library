@@ -69,7 +69,7 @@ const Card = ({ slice, linkResolver }) => (
 Card.propTypes = {
   slice: shape({
     primary: shape({
-      title: string.isRequired,
+      title: array.isRequired,
       description: string,
       actionText: string,
       actionLink: array,

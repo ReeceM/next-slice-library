@@ -2,6 +2,7 @@ import React from 'react';
 import { array, shape, object } from 'prop-types';
 import { Box, Flex, NavLink } from 'theme-ui';
 import { Button } from '../../../../components'
+import { Link } from 'prismic-reactjs';
 
 const Menu = ({ slice, linkResolver, show }) => {
 
@@ -35,10 +36,11 @@ const Menu = ({ slice, linkResolver, show }) => {
               flexDirection: 'column'
             }}
           >
-            {slice.items.map((items, index) => (
+            {slice.items.map((item, index) => (
               <NavLink
                 key={'navlink-' + index}
                 py={'1rem'}
+                href={Link.url(item.link, linkResolver)}
                 sx={{
                   '&:hover': {
                     borderTop: 'transparent',
@@ -46,7 +48,7 @@ const Menu = ({ slice, linkResolver, show }) => {
                   }
                 }}
               >
-                <span>{items.label}</span>
+                <span>{item.label}</span>
               </NavLink>
             ))}
             {
@@ -81,7 +83,7 @@ Menu.propTypes = {
   slice: shape({
     primary: shape(object).isRequired,
     items: array.isRequired,
-  }).isRequired,
+  }),
 };
 
 export default Menu;
