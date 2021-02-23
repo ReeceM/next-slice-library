@@ -1,4 +1,4 @@
-export { default as SocialProof } from './SocialProof'
+// export { default as SocialProof } from './SocialProof'
 export { default as HeroSlice } from './HeroSlice'
 export { default as FeatureSlice } from './FeatureSlice'
 export { default as NavbarSlice } from './NavbarSlice'
