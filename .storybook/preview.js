@@ -33,4 +33,3 @@ addParameters({
     page: DocsPage,
   },
 })
-
