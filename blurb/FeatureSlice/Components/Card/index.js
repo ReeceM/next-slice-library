@@ -4,7 +4,7 @@ import React from 'react';
 import { RichText } from 'prismic-reactjs';
 import { jsx, Box } from 'theme-ui';
 import { Button } from '../../../../components'
-import { shape, array, string, object } from 'prop-types';
+import { shape, array, string } from 'prop-types';
 
 const Card = ({ slice, linkResolver }) => (
   <Box
@@ -74,8 +74,7 @@ Card.propTypes = {
       actionText: string,
       actionLink: array,
     }).isRequired
-  }).isRequired,
-  linkResolver: shape(object)
+  }).isRequired
 }
 
 export default Card;

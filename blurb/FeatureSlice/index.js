@@ -15,7 +15,7 @@ const FeatureSlice = ({ slice, linkResolver }) => (
         display: ['block', 'flex'],
         position: 'relative',
         margin: 0,
-        flexDirection: slice.primary.placeLeft === false ? ['row', 'row-reverse'] : ['row-reverse', 'row']
+        flexDirection: slice.primary.placeLeft !== false ? ['row', 'row-reverse'] : ['row-reverse', 'row']
       }}
     >
       <div
@@ -29,7 +29,7 @@ const FeatureSlice = ({ slice, linkResolver }) => (
         <div
           sx={{
             width: ['83.33%', null, '140%'],
-            left: slice.primary.placeLeft === false ? ['3rem', '-15rem'] : [null, 'calc(100% - 45vw)'],
+            left: slice.primary.placeLeft !== false ? ['3rem', '-15rem'] : [null, 'calc(100% - 45vw)'],
             maxWidth: [null, null, '80rem'],
             position: 'relative'
           }}
@@ -47,7 +47,7 @@ const FeatureSlice = ({ slice, linkResolver }) => (
         __themeKey="captions"
         variant="feature"
         sx={{
-          left: slice.primary.placeLeft === false ? null : ['3rem', null],
+          left: slice.primary.placeLeft !== false ? null : ['3rem', null],
           zIndex: '10',
           display: 'flex',
           alignItems: 'flex-start',

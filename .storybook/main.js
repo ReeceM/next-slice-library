@@ -4,10 +4,13 @@ module.exports = {
     // '../components/**/*.stories.js'
   ],
   "addons": [
-    // "@storybook/addon-links",
+    "@storybook/addon-links",
     "@storybook/addon-essentials",
-    // '@storybook/addon-controls'
+    '@storybook/addon-controls'
   ],
+  /**
+   * An attempt to patch and fix babel/(core|runtime) 7.13.x
+   */
   webpackFinal: async (config, { configType }) => {
     config.resolve = {
       ...config.resolve,
