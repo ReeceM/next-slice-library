@@ -38,5 +38,8 @@ export const forms = {
     placeholder: 'grey20',
     fontFamily: 'body',
     bg: 'white',
+    height: '10rem',
+    width: '100%',
+    resize: 'vertical'
   }
 }

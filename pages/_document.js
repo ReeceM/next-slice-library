@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { InitializeColorMode } from 'theme-ui'
 
 import { createResolver } from 'next-slicezone/resolver'
-
+import Links from '../next_components/Links';
 export default class extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -14,7 +14,9 @@ export default class extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <Links />
+        </Head>
         <body>
           <InitializeColorMode />
           <Main />
