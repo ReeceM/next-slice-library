@@ -12,7 +12,7 @@ export const forms = {
     px: 'xsmall',
     textAlign: 'left',
     color: 'secondary',
-    width: 'intrinsic',
+    width: 'fit-content',
     fontWeight: 'normal',
     marginTop: 'small',
     marginBottom: 'xxsmall',
