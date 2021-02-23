@@ -5,7 +5,12 @@ import { storiesOf } from '@storybook/react';
 import { linkResolver } from '../../utils'
 
 mocks.forEach((variation) => {
-  storiesOf(model.name, Component).add(variation.name, () => <Component slice={variation} linkResolver={linkResolver}/>);
+  storiesOf(model.name, Component)
+    .add(
+      variation.name,
+      () => <Component slice={variation} linkResolver={linkResolver} />,
+      { controls: { hideNoControlsWarning: true } }
+    );
 });
 
 
