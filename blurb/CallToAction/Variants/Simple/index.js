@@ -17,7 +17,7 @@ const SimpleSlice = ({ slice, linkResolver }) => (
     }}
     >
       {
-        slice.primary.eyebrow ? (<Eyebrow mb={'small'}>{slice.primary.eyebrow}</Eyebrow>) : null
+        slice.primary.eyebrow ? (<Eyebrow mb={['small','medium']}>{slice.primary.eyebrow}</Eyebrow>) : null
       }
     <Grid
       gap={2}
@@ -30,7 +30,7 @@ const SimpleSlice = ({ slice, linkResolver }) => (
         __themeKey="slice"
         variant="cta"
         __css={{
-          textAlign: 'center',
+          textAlign: 'left',
           display: 'flex',
           flexDirection: 'column',
         }}
