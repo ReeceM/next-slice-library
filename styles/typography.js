@@ -8,7 +8,16 @@ export const headings = {
         '3rem',
         '3.2rem',
         '3.5rem',
-        '4rem',
+        '3.75rem',
+      ],
+      lineHeight: 1.3,
+    },
+    3: {
+      fontSize: [
+        '1.625rem', // 26px
+        '2rem', // 32px
+        '2.5rem', // 40px
+        '2.75rem', // 44px
       ],
       lineHeight: 1.3,
     },

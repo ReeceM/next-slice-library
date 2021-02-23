@@ -245,6 +245,9 @@ export default {
     h1: {
       ...headings.level[1],
     },
+    h3: {
+      ...headings.level[3]
+    },
     p: {
       fontSize: 'body',
       mt: 0,
