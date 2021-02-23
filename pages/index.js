@@ -10,7 +10,7 @@ const Page = (props) => <SliceZone {...props} resolver={resolver} />;
 // Fetch content from prismic
 export const getStaticProps = useGetStaticProps({
   client: Client(),
-  uid: () => "test",
+  uid: () => process.env.HOMEPAGE_UID ? process.env.HOMEPAGE_UID : 'home',
 });
 
 export default Page;

@@ -16,7 +16,7 @@ export const getStaticProps = useGetStaticProps({
 export const getStaticPaths = useGetStaticPaths({
   client: Client(),
   type: 'page',
-  fallback: true,// process.env.NODE_ENV === 'development',
+  fallback: process.env.NODE_ENV === 'development',
   formatPath: ({ uid }) => ({ params: { uid }})
 })
 
