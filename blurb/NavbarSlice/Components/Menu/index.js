@@ -1,5 +1,5 @@
 import React from 'react';
-import { array, shape } from 'prop-types';
+import { array, shape, object } from 'prop-types';
 import { Box, Flex, NavLink } from 'theme-ui';
 import { Button } from '../../../../components'
 
@@ -35,8 +35,9 @@ const Menu = ({ slice, linkResolver, show }) => {
               flexDirection: 'column'
             }}
           >
-            {slice.items.map((items) => (
+            {slice.items.map((items, index) => (
               <NavLink
+                key={'navlink-' + index}
                 py={'1rem'}
                 sx={{
                   '&:hover': {
@@ -78,9 +79,8 @@ const Menu = ({ slice, linkResolver, show }) => {
 
 Menu.propTypes = {
   slice: shape({
-    primary: shape({
-      title: array.isRequired,
-    }).isRequired,
+    primary: shape(object).isRequired,
+    items: array.isRequired,
   }).isRequired,
 };
 

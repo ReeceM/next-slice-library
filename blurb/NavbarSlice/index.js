@@ -6,6 +6,7 @@ import { Box, Flex, NavLink } from 'theme-ui';
 import { Button } from '../../components'
 import { jsx } from 'theme-ui';
 import { Menu } from './Components'
+import { Link } from 'prismic-reactjs';
 
 const NavbarSlice = ({ slice, linkResolver }) => {
 
@@ -73,11 +74,12 @@ const NavbarSlice = ({ slice, linkResolver }) => {
                 justifyContent: 'space-evenly'
               }}
             >
-              {slice.items.map((items) => (
+              {slice.items.map((item) => (
                 <NavLink
+                  href={Link.url(item.link, linkResolver)}
                   px={'1rem'}
                 >
-                  <span>{items.label}</span>
+                  <span>{item.label}</span>
                 </NavLink>
               ))}
             </Flex>
