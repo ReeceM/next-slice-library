@@ -7,8 +7,9 @@ import React from 'react'
  */
 
 const SocialMeta = ({ social_card, index }) => {
-  console.log(social_card);
+
   const { social_card_image, social_card_title, social_card_description } = social_card
+
   if (social_card.og_type === 'og') {
 
     return (
