@@ -24,7 +24,8 @@ mocks.forEach((variation) => {
             description: 'Place the Card on one side or the other',
             control: {
               type: 'boolean',
-            }
+            },
+            defaultValue: true
           },
         },
       }
