@@ -41,7 +41,7 @@
     "babel-loader": "^8.2.2",
     "lodash": "^4.17.21",
     "shx": "^0.3.3",
-    "slice-machine-ui": "^0.0.44-alpha.2",
+    "slice-machine-ui": "^0.0.44",
     "sm-commons": "^0.0.23"
   }
 }

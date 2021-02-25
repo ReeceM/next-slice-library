@@ -9873,9 +9873,9 @@ slash@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
 
-slice-machine-ui@^0.0.44-alpha.2:
-  version "0.0.44-alpha.6"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.0.44-alpha.6.tgz#531c3ef043e80dc6430de3d2bcce53e5e962daf6"
+slice-machine-ui@^0.0.44:
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.0.44.tgz#5453879636aa77285c18f3dbf6a837e5ad482c3e"
   dependencies:
     "@babel/register" "^7.11.5"
     "@reach/menu-button" "^0.10.5"
